@@ -1,0 +1,18 @@
+/* styles.css */
+
+/* Estilo para el Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: #007bff !important; /* Color de texto de los enlaces */
+}
+
+.nav-link:hover {
+    color: #0056b3 !important; /* Color de texto al pasar el mouse */
+}
+
+.navbar-brand img {
+    height: 40px; /* Altura del logo */
+}
