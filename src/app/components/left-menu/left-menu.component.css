@@ -1,0 +1,90 @@
+/* app.component.css */
+
+/* Estilos del menú lateral */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .sidebar-header h3 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .filter-container {
+    margin-bottom: 80px;
+  }
+  
+  label {
+    color: #fff;
+  }
+  
+  .filter-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .filter-input:focus {
+    border-color: #777;
+    outline: none;
+  }
+  
+  /* Estilos para las cards */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Paginación */
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-controls .ngx-pagination {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+  }
+  
+  .pagination-controls .ngx-pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination-controls .ngx-pagination li a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-controls .ngx-pagination li a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
