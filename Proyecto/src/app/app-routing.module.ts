@@ -4,12 +4,15 @@ import { LoginComponent } from './components/authentication/login/login.componen
 import { MainComponent } from './components/main/main.component';
 import { RegisterComponent } from './components/authentication/register/register.component';
 import { PlantillacvComponent } from './components/plantillacv/plantillacv.component';
+import { LeftMenuComponent } from './components/left-menu/left-menu.component';
 
 const routes: Routes = [
   { path:'', component: MainComponent }, 
   { path:'login', component: LoginComponent},
   { path:'register', component: RegisterComponent},
   { path:'plantillacv', component: PlantillacvComponent},
+  { path:'menuUser', component: LeftMenuComponent},
+  
   
 ];
 

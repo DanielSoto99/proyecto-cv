@@ -11,6 +11,8 @@ import { LoginComponent } from './components/authentication/login/login.componen
 import { RegisterComponent } from './components/authentication/register/register.component';
 import { MainComponent } from './components/main/main.component';
 import { PlantillacvComponent } from './components/plantillacv/plantillacv.component';
+import { LeftMenuComponent } from './components/left-menu/left-menu.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import { PlantillacvComponent } from './components/plantillacv/plantillacv.compo
     LoginComponent,
     RegisterComponent,
     MainComponent,
-    PlantillacvComponent
+    PlantillacvComponent,
+    LeftMenuComponent
 
 
   ],
@@ -30,7 +33,8 @@ import { PlantillacvComponent } from './components/plantillacv/plantillacv.compo
     BrowserModule,
     AppRoutingModule,
     FormsModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
