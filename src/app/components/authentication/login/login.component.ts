@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { AuthenticacionService } from '../../../services/auth/autenticacion.service';
+
 
 @Component({
   selector: 'app-login',
@@ -9,6 +11,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 export class LoginComponent implements OnInit {
 
   public myForm!: FormGroup;
+  private authService = inject(AuthenticacionService);
 
   constructor(private fb:FormBuilder) { }
 
@@ -37,5 +40,9 @@ export class LoginComponent implements OnInit {
 
   public get f():any{
     return this.myForm.controls;
+  }
+
+  signInWithGoogle(){
+    this.authService.logInWithGoogle();
   }
 }

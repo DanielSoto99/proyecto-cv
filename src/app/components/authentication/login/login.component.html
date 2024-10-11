@@ -9,6 +9,13 @@
       <label for="exampleInputPassword1" class="form-label">Contraseña</label>
       <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
     </div>
+    <div class="login-button">
+      <div
+        id="google-login-button"
+        class="login-button btn btn-primary"
+        (click)="signInWithGoogle()"
+      ></div>
+    </div>
     <button type="button" class="btn btn-primary">Entrar</button>
   </form>
 </div>
