@@ -14,6 +14,7 @@ import { PlantillacvComponent } from './components/plantillacv/plantillacv.compo
 import { provideOAuthClient } from 'angular-oauth2-oidc';
 import { provideHttpClient } from '@angular/common/http';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     LoginComponent,
     RegisterComponent,
     MainComponent,
-    PlantillacvComponent
+    PlantillacvComponent,
+    DashboardComponent
 
 
   ],

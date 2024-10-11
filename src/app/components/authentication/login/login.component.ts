@@ -1,6 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { AuthenticacionService } from '../../../services/auth/autenticacion.service';
+import { AuthenticacionService } from '../../../services/auth/auth.service';
 
 
 @Component({
@@ -43,6 +43,7 @@ export class LoginComponent implements OnInit {
   }
 
   signInWithGoogle(){
+    console.log('signInWithGoogle', 'test');
     this.authService.logInWithGoogle();
   }
 }

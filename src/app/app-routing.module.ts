@@ -6,6 +6,7 @@ import { MainComponent } from './components/main/main.component';
 import { RegisterComponent } from './components/authentication/register/register.component';
 import { PlantillacvComponent } from './components/plantillacv/plantillacv.component';
 import { LeftMenuComponent } from './components/left-menu/left-menu.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 const routes: Routes = [
   { path:'', component: MainComponent }, 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path:'register', component: RegisterComponent},
   { path:'plantillacv', component: PlantillacvComponent},
   { path:'menuUser', component: LeftMenuComponent},
+  { path: 'dashboard', component: DashboardComponent }
   
   
 ];
